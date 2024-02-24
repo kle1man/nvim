@@ -4,7 +4,7 @@ return {
 	"kle1man/nvim",
 	require = "custom/starter/starter",
 	config = function()
-		require("starter.starter").setup({
+		require("starter").setup({
 			header = "kle1man/nvim", -- changes default greeting
 			footer = "", -- hides help section
 			silent = true, -- hides query keystrokes
