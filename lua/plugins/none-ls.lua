@@ -9,10 +9,11 @@ return {
 				null_ls.builtins.formatting.stylua,
 				-- python formatting
 				null_ls.builtins.formatting.black,
-                -- markdown (and more) formatting
-                null_ls.builtins.formatting.prettier,
-                -- java formatting
-                null_ls.builtins.formatting.google_java_format,
+				null_ls.builtins.formatting.isort, -- sorts imports
+				-- markdown (and more) formatting
+				null_ls.builtins.formatting.prettier,
+				-- java formatting
+				null_ls.builtins.formatting.google_java_format,
 			},
 		})
 
