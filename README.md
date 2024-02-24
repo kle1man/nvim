@@ -4,6 +4,14 @@ My personal neovim configuration, written from the ground up.
 
 ### Features
 
+**Implementing:**
+
+- Winbar
+- Statusline
+- MarkdownPreview
+
+**Implemented:**
+
 (to be added later)
 
 ### Plugins
