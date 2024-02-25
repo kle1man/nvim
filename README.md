@@ -7,16 +7,39 @@ My personal neovim configuration, written from the ground up.
 **Implementing:**
 
 - Winbar
-- Statusline
-- MarkdownPreview
+- Autocomplete
+- Debugging
+- Custom statusline (implemented, working on the GUI before enabling)
 
 **Implemented:**
 
-(to be added later)
+- Catppuccin theme + window transparency
+- LSP functionality for Python, Java, Markdown, and Lua
+- Formatters for Python, Java, Markdown, and Lua
+- Navigatable file tree
+- Toggle commenting
+- Custom starting screen
+- Fuzzy finding / live grep
+- Tmux navigation within nvim
+- Live markdown preview
+- Custom options / mappings
 
 ### Plugins
 
-(to be added later)
+- [folke/lazy.nvim](https://github.com/folke/lazy.nvim#-plugin-spec)
+- [catppuccin/nvim](https://github.com/catppuccin/nvim)
+- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
+- [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+- [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
+- [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
+- [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment)
+- [kle1man/starter](https://github.com/kle1man/nvim/blob/846a79eeeeb4d0ef9d4271df195aa88e85146d23/custom/starter/starter.lua) (modified version of [echasnovski/mini.starter](https://github.com/echasnovski/mini.nvim/blob/b7403ad0c2a4dab777244171ca1b7e8c89696584/lua/mini/starter.lua))
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#getting-started)
+- [xiyaowong/transparent.nvim](https://github.com/xiyaowong/transparent.nvim)
+- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 ### Resources
 
