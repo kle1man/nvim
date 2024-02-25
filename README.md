@@ -6,7 +6,6 @@ My personal neovim configuration, written from the ground up.
 
 **Implementing:**
 
-- Autocomplete
 - Debugging
 - Custom statusline (implemented, working on the GUI before enabling)
 
@@ -15,6 +14,7 @@ My personal neovim configuration, written from the ground up.
 - Catppuccin theme + window transparency
 - LSP functionality for Python, Java, Markdown, and Lua
 - Formatters for Python, Java, Markdown, and Lua
+- Autocomplete, through various LSPs and vscode
 - Navigatable file tree
 - Toggle commenting
 - Custom starting screen
@@ -29,6 +29,11 @@ My personal neovim configuration, written from the ground up.
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim#-plugin-spec)
 - [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim)
 - [catppuccin/nvim](https://github.com/catppuccin/nvim)
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+- [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
@@ -41,6 +46,8 @@ My personal neovim configuration, written from the ground up.
 - [xiyaowong/transparent.nvim](https://github.com/xiyaowong/transparent.nvim)
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+
+along with any dependencies required by the above plugins
 
 ### Resources
 
