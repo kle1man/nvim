@@ -1,6 +1,7 @@
 -- Require necessary files on launch
 require("options")
 require("mappings")
+require("autocmds")
 
 -- Lazy package manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
