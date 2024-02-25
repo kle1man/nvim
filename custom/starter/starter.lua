@@ -1484,10 +1484,8 @@ H.apply_buffer_mappings = function(buf_id)
     buf_keymap("<CR>", "MiniStarter.eval_current_item()")
 
     buf_keymap("<Up>", [[MiniStarter.update_current_item('prev')]])
-    buf_keymap("<C-p>", [[MiniStarter.update_current_item('prev')]])
     buf_keymap("<M-k>", [[MiniStarter.update_current_item('prev')]])
     buf_keymap("<Down>", [[MiniStarter.update_current_item('next')]])
-    buf_keymap("<C-n>", [[MiniStarter.update_current_item('next')]])
     buf_keymap("<M-j>", [[MiniStarter.update_current_item('next')]])
 
     -- Make all special symbols to update query
@@ -1498,7 +1496,6 @@ H.apply_buffer_mappings = function(buf_id)
 
     buf_keymap("<Esc>", [[MiniStarter.set_query('')]])
     buf_keymap("<BS>", "MiniStarter.add_to_query()")
-    buf_keymap("<C-c>", "MiniStarter.close()")
 end
 
 H.add_hl_activity = function(buf_id, query)
