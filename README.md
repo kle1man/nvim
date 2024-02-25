@@ -22,11 +22,13 @@ My personal neovim configuration, written from the ground up.
 - Fuzzy finding / live grep
 - Tmux navigation within nvim
 - Live markdown preview
+- Winbar smart breadcrumbs
 - Custom options / mappings
 
 ### Plugins
 
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim#-plugin-spec)
+- [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim)
 - [catppuccin/nvim](https://github.com/catppuccin/nvim)
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
