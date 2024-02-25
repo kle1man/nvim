@@ -6,7 +6,6 @@ My personal neovim configuration, written from the ground up.
 
 **Implementing:**
 
-- Winbar
 - Autocomplete
 - Debugging
 - Custom statusline (implemented, working on the GUI before enabling)
