@@ -21,3 +21,6 @@ map("v", "<leader>c", ":CommentToggle<CR>", mapopts)
 
 -- Open filetree
 map("n", "<C-n>", ":Neotree filesystem toggle left<CR>", {})
+
+-- Disable deselecting after yank in visual mode
+map("v", "y", "ygv", { noremap = true })
