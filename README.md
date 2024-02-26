@@ -18,6 +18,7 @@ My personal neovim configuration, written from the ground up.
 - Navigatable file tree
 - Toggle commenting
 - Indent lines
+- Autopairs
 - Custom starting screen
 - Fuzzy finding / live grep
 - Tmux navigation within nvim
