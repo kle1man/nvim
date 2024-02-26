@@ -7,6 +7,7 @@ My personal neovim configuration, written from the ground up.
 **Implementing:**
 
 - Debugging
+- GitHub Copilot
 
 **Implemented:**
 
