@@ -15,6 +15,9 @@ map("i", "<C-e>", "<End>", mapopts)
 -- Make 'dd' delete line without copying
 map("n", "dd", '"_dd', { noremap = true })
 
+-- Make 'd' in visual mode delete line without copying
+map("v", "d", '"_d', { noremap = true })
+
 -- Toggle comment in both modes
 map("n", "<leader>c", ":CommentToggle<CR>", mapopts)
 map("v", "<leader>c", ":CommentToggle<CR>", mapopts)
