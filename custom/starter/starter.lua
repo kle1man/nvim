@@ -423,7 +423,7 @@ MiniStarter.sections = {}
 ---@return table Array of items.
 MiniStarter.sections.builtin_actions = function()
     return {
-        { name = "Open file tree",  action = ":Neotree filesystem reveal left", section = "Builtin actions" },
+        { name = "Open file tree",  action = ":silent Neotree filesystem reveal left", section = "Builtin actions" },
         { name = "Edit new buffer", action = "enew",                          section = "Builtin actions" },
         { name = "Quit Neovim",     action = "qall",                          section = "Builtin actions" },
     }
