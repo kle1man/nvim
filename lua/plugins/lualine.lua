@@ -46,7 +46,7 @@ return {
 				lualine_a = {},
 				lualine_b = {},
 				lualine_c = { check_neovim_mode, "progress" },
-				lualine_x = { "diagnostics", "diff", "branch" },
+				lualine_x = { "diagnostics", "diff", "branch", "filesize" },
 				lualine_y = {},
 				lualine_z = {},
 			},
