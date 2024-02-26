@@ -7,7 +7,6 @@ My personal neovim configuration, written from the ground up.
 **Implementing:**
 
 - Debugging
-- Custom statusline (implemented, working on the GUI before enabling)
 
 **Implemented:**
 
@@ -15,6 +14,7 @@ My personal neovim configuration, written from the ground up.
 - LSP functionality for Python, Java, Markdown, and Lua
 - Formatters for Python, Java, Markdown, and Lua
 - Autocomplete, through various LSPs and vscode
+- Custom status line
 - Navigatable file tree
 - Toggle commenting
 - Custom starting screen
