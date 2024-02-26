@@ -29,6 +29,7 @@ My personal neovim configuration, written from the ground up.
 ### Plugins
 
 - [folke/lazy.nvim](https://github.com/folke/lazy.nvim#-plugin-spec)
+- [cohama/lexima.vim](https://github.com/cohama/lexima.vim)
 - [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim)
 - [catppuccin/nvim](https://github.com/catppuccin/nvim)
 - [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
