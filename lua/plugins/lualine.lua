@@ -45,7 +45,7 @@ return {
 			sections = {
 				lualine_a = {},
 				lualine_b = {},
-				lualine_c = { check_neovim_mode, "progress" },
+				lualine_c = { check_neovim_mode, "progress", require("wpm").wpm },
 				lualine_x = { "diagnostics", "diff", "branch", "filesize" },
 				lualine_y = {},
 				lualine_z = {},

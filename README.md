@@ -16,7 +16,7 @@ My personal neovim configuration, written from the ground up.
 - LSP functionality for Python, Java, Markdown, and Lua
 - Formatters for Python, Java, Markdown, and Lua
 - Autocomplete, through various LSPs and vscode
-- Custom status line
+- Custom status line (with live wpm counter)
 - Navigatable file tree
 - Toggle commenting
 - Indent lines
@@ -54,6 +54,7 @@ My personal neovim configuration, written from the ground up.
 - [xiyaowong/transparent.nvim](https://github.com/xiyaowong/transparent.nvim)
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- [jcdickinson/wpm.nvim](https://github.com/jcdickinson/wpm.nvim)
 
 along with any dependencies required by the above plugins
 
