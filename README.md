@@ -20,6 +20,7 @@ My personal neovim configuration, written from the ground up.
 - Toggle commenting
 - Indent lines
 - Autopairs
+- Gitsigns
 - Custom starting screen
 - Fuzzy finding / live grep
 - Tmux navigation within nvim
@@ -38,6 +39,7 @@ My personal neovim configuration, written from the ground up.
 - [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 - [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
