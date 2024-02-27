@@ -8,6 +8,7 @@ My personal neovim configuration, written from the ground up.
 
 - Debugging
 - GitHub Copilot
+- Autopairs for LaTeX blocks in markdown files (\$\$ \$\$)
 
 **Implemented:**
 
