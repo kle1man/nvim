@@ -11,7 +11,7 @@ return {
 		lazy = false,
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "ltex", "jdtls", "marksman", "pyright" }, -- installs lsps and formatters
+				ensure_installed = { "lua_ls", "ltex", "jdtls", "marksman", "pyright", "cssls", "html", "biome" }, -- installs lsps and formatters
 			})
 		end,
 	},
@@ -26,6 +26,9 @@ return {
 			lspconfig.jdtls.setup({ capabilities = capabilities }) -- java lsp
 			lspconfig.marksman.setup({ capabilities = capabilities }) -- markdown lsp
 			lspconfig.pyright.setup({ capabilities = capabilities }) -- python lsp
+            lspconfig.cssls.setup({ capabilities = capabilities }) -- css lsp
+            lspconfig.html.setup({ capabilities = capabilities }) -- html lsp
+            lspconfig.biome.setup({ capabilities = capabilities }) -- js/ts lsp
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- pops up information about what's under the cursor
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {}) -- moves cursor to code definition

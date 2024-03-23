@@ -10,7 +10,7 @@ return {
 				-- python formatting
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.isort, -- sorts imports
-				-- markdown (and more) formatting
+				-- markdown/js/ts/css/html formatting
 				null_ls.builtins.formatting.prettier,
 				-- java formatting
 				null_ls.builtins.formatting.google_java_format,
